@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style:none;
+}
+// banner start
+.header{
+   background-image: url(images/banner.jpg);
+   height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+   background-position: center center;
+   background-color: #031424;
+   .mid {
+      width: 80%;
+      margin: auto;
+      .top-header:after {
+         content:'';
+         display: block;
+         clear: both;
+         .logo {
+            width: 50%;
+            float: left;
+            img{
+               float: left;
+            }
+            h3{display: table;float: right;}
+         }
+      }
+   }
+}
+
+// banner end
